@@ -999,7 +999,7 @@ address {
 }
 
 .span-checkbox{
-    display:flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     width: 16px;
