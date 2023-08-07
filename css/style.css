@@ -905,9 +905,12 @@ address {
     display: block;
     font-size: 12px;
     font-weight: 400;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.04em;
-    padding-bottom: 4px;
+    margin-bottom: 4px;
+    color: var(--brand-color8);
+
+
 
 }
 
@@ -1094,4 +1097,10 @@ address {
 
 .logo-div2{
     margin-right: 80px;
+}
+
+
+.modal-icon-icon{
+    position: relative;
+    
 }
