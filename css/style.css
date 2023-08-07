@@ -898,6 +898,9 @@ address {
     padding-left: 38px;
     padding-right: 38px;
     outline: transparent;
+    background-color: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
     
 }
 
@@ -926,6 +929,8 @@ address {
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 
 }
 
@@ -1102,5 +1107,5 @@ address {
 
 .modal-icon-icon{
     position: relative;
-    
+
 }
