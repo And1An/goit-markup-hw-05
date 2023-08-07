@@ -881,11 +881,12 @@ address {
 .modal-title{
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
     color: var(--brand-color2);
     text-align: center;
     padding-top: 72px;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
+
 
 }
 
