@@ -74,7 +74,6 @@ header {
     position: absolute;
     width: 1px;
     height: 1px;
-    margin: -1px;
     border: 0;
     padding: 0;
     white-space: nowrap;
@@ -884,7 +883,6 @@ address {
     letter-spacing: 0.02em;
     color: var(--brand-color2);
     text-align: center;
-    padding-top: 72px;
     margin-bottom: 16px;
 
 
@@ -992,7 +990,6 @@ address {
     line-height: 1.17;
     letter-spacing: 0.04em;
    
-    align-items: center;
 
 
 
@@ -1079,14 +1076,18 @@ address {
     justify-content: space-around;
     align-items: center;
     padding: 8px 24px;
-    gap: 16px  ;
     justify-content: center;
     letter-spacing: 0.04em
     
- 
- 
+ }
 
-}
+ .btn-footer:focus{
+    background-color: var(--brand-color3);
+ }
+
+ .btn-footer:hover {
+     background-color: var(--brand-color3);
+ }
 
 .footer-img-subscribe{
     fill: var(--brand-color4);
